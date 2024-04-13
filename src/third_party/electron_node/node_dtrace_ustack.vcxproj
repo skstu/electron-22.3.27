@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1B5ECE66-2981-8603-833D-6DB50C3111EE}</ProjectGuid>
+    <ProjectGuid>{3E5D6FC2-C67F-07AA-B23D-1ED1D1C4690E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>node_dtrace_ustack</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

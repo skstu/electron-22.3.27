@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{48056217-0D28-43DE-0228-BBA1EB958A44}</ProjectGuid>
+    <ProjectGuid>{5D03E0F7-72ED-0A04-C710-3E17558FE16D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>brotli</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{552C48F5-D16B-140B-324F-0EC2EF52B062}</ProjectGuid>
+    <ProjectGuid>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>generate_bytecode_builtins_list</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="bytecode_builtins_list_generator.vcxproj">
-      <Project>{78D35D33-FE1E-EE98-4437-888DBB11B6A2}</Project>
+      <Project>{8F002323-3EBA-CDB5-426A-702172BB1C3F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

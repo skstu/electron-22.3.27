@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0AB9E500-A275-07D6-6DBB-EA6061644A94}</ProjectGuid>
+    <ProjectGuid>{0BFA52C3-4C1F-BE07-F246-6CD179E8ADB9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icustubdata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="icu_implementation.vcxproj">
-      <Project>{F98003EC-9C15-6081-DDB8-AACD2859BD02}</Project>
+      <Project>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

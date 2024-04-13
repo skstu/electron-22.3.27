@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4B34DDEF-D84B-8711-F508-35D8FE3A342D}</ProjectGuid>
+    <ProjectGuid>{A614A5FD-71B4-478B-F784-0DF949290BE6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>run_torque</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -744,7 +744,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="torque.vcxproj">
-      <Project>{9A374CD5-E16E-1390-7F3A-7C9410B752E2}</Project>
+      <Project>{AD52A89C-E5C9-B54F-319E-892F0CEB090B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

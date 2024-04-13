@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{78D35D33-FE1E-EE98-4437-888DBB11B6A2}</ProjectGuid>
+    <ProjectGuid>{8F002323-3EBA-CDB5-426A-702172BB1C3F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>bytecode_builtins_list_generator</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -144,23 +144,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_libbase.vcxproj">
-      <Project>{D7C872F7-3104-5B0E-7797-CFABB5F48413}</Project>
+      <Project>{9F25E06A-D824-0E3F-578A-E58190FC76B9}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_headers.vcxproj">
-      <Project>{19F2E750-E9CD-DCEE-0CB4-057768AB69E3}</Project>
+      <Project>{65E0B8A4-DC76-61F7-B606-B1189EA7C00E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_config_headers.vcxproj">
-      <Project>{3FED3D33-0C9B-F538-29A1-81B92786C585}</Project>
+      <Project>{3DA55BE0-9896-99A7-D683-8454E889EF1B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="cppgc_headers.vcxproj">
-      <Project>{DD9F664A-DECA-D484-CDFF-E66E018394A8}</Project>
+      <Project>{42E23C3B-E9F2-8304-4F04-29EB43E9B1DE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_version.vcxproj">
-      <Project>{633240AC-4026-B550-9B51-20F42DFE2CA2}</Project>
+      <Project>{1F431211-14CD-E5E7-E954-56107B8A1CA8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

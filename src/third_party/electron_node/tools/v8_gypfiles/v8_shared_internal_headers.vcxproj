@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E5540A33-DD1D-B349-0772-FECD58343E71}</ProjectGuid>
+    <ProjectGuid>{11418F3E-A48D-3651-2603-897D1AB75B94}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_shared_internal_headers</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -133,11 +133,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_headers.vcxproj">
-      <Project>{19F2E750-E9CD-DCEE-0CB4-057768AB69E3}</Project>
+      <Project>{65E0B8A4-DC76-61F7-B606-B1189EA7C00E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_libbase.vcxproj">
-      <Project>{D7C872F7-3104-5B0E-7797-CFABB5F48413}</Project>
+      <Project>{9F25E06A-D824-0E3F-578A-E58190FC76B9}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

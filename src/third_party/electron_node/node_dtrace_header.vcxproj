@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{855F2A56-918F-07C8-09B1-9D74F35C9ABA}</ProjectGuid>
+    <ProjectGuid>{A4CF347C-6CD1-454D-9BEF-30AA1A22B35E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>node_dtrace_header</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

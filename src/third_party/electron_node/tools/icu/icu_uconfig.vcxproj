@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BCEEE579-4FE6-2BC1-B6F6-5CEF5DE904FA}</ProjectGuid>
+    <ProjectGuid>{D31F5D35-5BC0-6223-D2C3-A3E210801828}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icu_uconfig</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

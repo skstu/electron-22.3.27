@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B1EFBCB3-77D8-F675-F896-C0F62083540D}</ProjectGuid>
+    <ProjectGuid>{6931DC58-1212-1262-2F0F-9EF3FE04ECFF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>openssl-cli</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -280,7 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="openssl.vcxproj">
-      <Project>{872A6DA5-8D55-FB6B-E8F5-59CA3EE7221C}</Project>
+      <Project>{4B8EDFE4-B98C-8A8D-54AD-80A12B732F4D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

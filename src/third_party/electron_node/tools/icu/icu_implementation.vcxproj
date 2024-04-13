@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F98003EC-9C15-6081-DDB8-AACD2859BD02}</ProjectGuid>
+    <ProjectGuid>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icu_implementation</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

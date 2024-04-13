@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{27C1A492-CE3D-2A6E-5DD4-7391E497789C}</ProjectGuid>
+    <ProjectGuid>{B0BDC4DA-789A-7A97-6849-33E7A2D26BD1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_base</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -123,11 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_base_without_compiler.vcxproj">
-      <Project>{30ADCBBC-111E-9EDE-5B2B-78A6A1D46283}</Project>
+      <Project>{0E365525-4BA1-7E91-F990-B91D67284DE3}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_compiler.vcxproj">
-      <Project>{9525D321-45C5-9C02-1477-04FFE7D8E6AA}</Project>
+      <Project>{7EC22882-33FE-1225-4E03-F9DFDA3E327B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

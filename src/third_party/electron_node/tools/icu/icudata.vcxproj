@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{80278FEA-CEC8-CBA2-74FA-C675A1CBF135}</ProjectGuid>
+    <ProjectGuid>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icudata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="genccode.vcxproj">
-      <Project>{E39F9C78-FAB1-628D-DBD3-135A5B401066}</Project>
+      <Project>{DE8F05A0-993C-59EC-8704-73803B661DF9}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

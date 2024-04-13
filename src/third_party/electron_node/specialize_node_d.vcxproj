@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{649E0EEE-2C95-BB46-65E5-F3DF8F8CF411}</ProjectGuid>
+    <ProjectGuid>{F153A2D9-F329-69AD-912F-B1EAF448A3D4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>specialize_node_d</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

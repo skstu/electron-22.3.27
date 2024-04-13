@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7CB47CD6-ED19-5CF8-1EE4-4BB6441F5AA5}</ProjectGuid>
+    <ProjectGuid>{EA1B82BC-FA61-9D58-5AAC-D5C9B818676E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>torque_base</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -232,7 +232,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_shared_internal_headers.vcxproj">
-      <Project>{E5540A33-DD1D-B349-0772-FECD58343E71}</Project>
+      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

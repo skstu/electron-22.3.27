@@ -14,9 +14,10 @@ module.exports.getElectronVersion = () => {
   const output = spawnSync('git', ['describe', '--tags', '--abbrev=0'], {
     cwd: path.resolve(__dirname, '..', '..')
   });
-  if (output.status !== 0) {
-    console.error(output.stderr);
-    throw new Error('Failed to get current electron version');
-  }
-  return output.stdout.toString().trim().replace(/^v/g, '');
+  //if (output.status !== 0) {
+  //  console.error(output.stderr);
+  //  throw new Error('Failed to get current electron version');
+  //}
+  //return output.stdout.toString().trim().replace(/^v/g, '');
+  return '22.3.27';
 };

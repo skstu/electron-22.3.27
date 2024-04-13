@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7B113DD2-A6CA-2577-298B-D29A678F9BD4}</ProjectGuid>
+    <ProjectGuid>{8E9E82E4-D3BC-06E5-379A-4FFEA84B1856}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>gtest_main</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

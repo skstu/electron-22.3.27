@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{78FC47D0-4005-AD07-661D-A2EC127A0FCC}</ProjectGuid>
+    <ProjectGuid>{3CA598FC-11ED-EBE1-E3B4-FF046AC55836}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libnode</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -1722,19 +1722,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="deps\googletest\gtest_prod.vcxproj">
-      <Project>{A944F65D-04D3-75BE-883D-D1EA97A9A905}</Project>
+      <Project>{507B38FE-D12A-37CA-43DD-73427F79A231}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_etw.vcxproj">
-      <Project>{90227C6A-9FB9-7AB0-9901-296ACD8226A8}</Project>
+      <Project>{D40CDC6F-5EB3-C734-4E38-1AEE735AE182}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icuuc.vcxproj">
-      <Project>{4A7617E7-E2DE-AD02-6F8D-B7F948796E7D}</Project>
+      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\openssl\openssl-cli.vcxproj">
-      <Project>{B1EFBCB3-77D8-F675-F896-C0F62083540D}</Project>
+      <Project>{6931DC58-1212-1262-2F0F-9EF3FE04ECFF}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

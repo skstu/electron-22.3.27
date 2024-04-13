@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A228CC65-4E77-A3C2-E00E-B295982AB685}</ProjectGuid>
+    <ProjectGuid>{469281B7-036B-46EB-D6D4-037A15213B35}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>node_text_start</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

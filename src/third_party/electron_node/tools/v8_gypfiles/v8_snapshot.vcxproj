@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{527C9D9B-B040-5996-B340-A7243706CDBE}</ProjectGuid>
+    <ProjectGuid>{61D4719A-9FF9-F2A6-4436-F695E3C74BC2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_snapshot</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -152,23 +152,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{552C48F5-D16B-140B-324F-0EC2EF52B062}</Project>
+      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{4B34DDEF-D84B-8711-F508-35D8FE3A342D}</Project>
+      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="mksnapshot.vcxproj">
-      <Project>{1CAB3083-7301-1599-C537-0C1B157D4138}</Project>
+      <Project>{25717FEF-436F-A45A-D0DE-3A801B3B79CE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{6056F263-422C-5753-BF9A-F31C6810C6BB}</Project>
+      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_compiler_for_mksnapshot.vcxproj">
-      <Project>{B1A4218C-4729-BFE8-86AB-A068D0274BCC}</Project>
+      <Project>{FC7EFBF8-B897-8433-2A8A-E63E79B73A89}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

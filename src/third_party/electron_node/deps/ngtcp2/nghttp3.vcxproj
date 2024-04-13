@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D3535A97-09BA-A3BB-11CF-299E85B65A45}</ProjectGuid>
+    <ProjectGuid>{2D077206-DEBA-58BD-C8BB-CF62575D0497}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>nghttp3</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C4C8AA1A-18FB-6582-A580-0CF5E699816C}</ProjectGuid>
+    <ProjectGuid>{1AC33BBE-EE1A-0844-F2C7-3FEFDF0A0AB4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_bigint</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

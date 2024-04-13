@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6056F263-422C-5753-BF9A-F31C6810C6BB}</ProjectGuid>
+    <ProjectGuid>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_maybe_icu</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -123,11 +123,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\icu\icui18n.vcxproj">
-      <Project>{702845C0-26C3-B5AE-F0D8-25FE8DCA5AB8}</Project>
+      <Project>{CCC69451-3C9A-1D78-94B4-141F46688890}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icuuc.vcxproj">
-      <Project>{4A7617E7-E2DE-AD02-6F8D-B7F948796E7D}</Project>
+      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

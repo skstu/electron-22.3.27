@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CA3FF004-BF4D-23CB-41A0-03D403DCBF25}</ProjectGuid>
+    <ProjectGuid>{3625E666-1342-F789-8E6B-653CF0128E2E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>torque_runtime_support</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

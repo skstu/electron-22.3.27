@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{872A6DA5-8D55-FB6B-E8F5-59CA3EE7221C}</ProjectGuid>
+    <ProjectGuid>{4B8EDFE4-B98C-8A8D-54AD-80A12B732F4D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>openssl</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

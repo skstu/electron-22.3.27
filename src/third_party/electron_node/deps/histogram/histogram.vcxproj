@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{95BA900F-43C5-A01A-9DE5-DAA77A9162AF}</ProjectGuid>
+    <ProjectGuid>{5A07FFF1-36E2-9B2A-C222-B637CD199CE4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>histogram</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

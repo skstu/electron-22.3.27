@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5562B70B-8DB9-6065-28E7-6C39919713A4}</ProjectGuid>
+    <ProjectGuid>{AE6DF110-7797-EFBF-C3CE-EB376EA5500F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>cares</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

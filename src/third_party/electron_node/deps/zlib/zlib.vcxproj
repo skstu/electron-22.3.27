@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6753ADCC-3B6D-B43E-A452-CA49C57E6269}</ProjectGuid>
+    <ProjectGuid>{1C2BD24D-7F63-0483-D8BB-18B5E7E10591}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>zlib</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{07BCE176-2590-2E4E-049D-A43328278F50}</ProjectGuid>
+    <ProjectGuid>{30FE701A-E241-E622-6065-D15BB3F6FDE0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>libuv</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

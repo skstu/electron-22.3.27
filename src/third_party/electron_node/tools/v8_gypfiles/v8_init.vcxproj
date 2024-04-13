@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6BEF0DFC-9413-6ABA-B8F8-3F4139F56937}</ProjectGuid>
+    <ProjectGuid>{BFA27E50-95B1-B0BC-8011-4B8A97C2CCC1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_init</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -138,15 +138,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{552C48F5-D16B-140B-324F-0EC2EF52B062}</Project>
+      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{4B34DDEF-D84B-8711-F508-35D8FE3A342D}</Project>
+      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{6056F263-422C-5753-BF9A-F31C6810C6BB}</Project>
+      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

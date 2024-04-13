@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{48864CA5-D549-001C-B033-BC577666F350}</ProjectGuid>
+    <ProjectGuid>{34F6E915-5DF9-2975-BE98-33AADBE4D343}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>postmortem-metadata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -329,7 +329,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{4B34DDEF-D84B-8711-F508-35D8FE3A342D}</Project>
+      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4A7617E7-E2DE-AD02-6F8D-B7F948796E7D}</ProjectGuid>
+    <ProjectGuid>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icuuc</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -111,11 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="icuucx.vcxproj">
-      <Project>{E3FC8906-B079-CF8E-2347-1B6E0CF4D7D5}</Project>
+      <Project>{F3BF627A-DCC5-1F5F-E88E-60D7ACB28F74}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="icudata.vcxproj">
-      <Project>{80278FEA-CEC8-CBA2-74FA-C675A1CBF135}</Project>
+      <Project>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0CA1E024-0430-CEF2-F5CB-A52FB35B422C}</ProjectGuid>
+    <ProjectGuid>{0C47845B-5746-BF9D-D619-4CF5E2CEBFAD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_cppgc_shared</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

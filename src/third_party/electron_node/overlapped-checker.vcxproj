@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{20AEB245-242E-7EA5-2CEB-1C596AEDC68C}</ProjectGuid>
+    <ProjectGuid>{73D25A86-4D9F-248E-0E93-ED94ABCC3766}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>overlapped-checker</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

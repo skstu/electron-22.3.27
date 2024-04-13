@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{633240AC-4026-B550-9B51-20F42DFE2CA2}</ProjectGuid>
+    <ProjectGuid>{1F431211-14CD-E5E7-E954-56107B8A1CA8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_version</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

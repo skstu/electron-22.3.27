@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{370F5024-AA88-1A42-7A10-48BAA4F922BB}</ProjectGuid>
+    <ProjectGuid>{430AA827-F7E0-C670-A765-C25AD5A5D515}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>run_gen-regexp-special-case</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="gen-regexp-special-case.vcxproj">
-      <Project>{45258FA1-64CC-5F6B-0CC7-339F715332EF}</Project>
+      <Project>{EBCEB75E-5509-278E-E897-1128E5DD57CE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

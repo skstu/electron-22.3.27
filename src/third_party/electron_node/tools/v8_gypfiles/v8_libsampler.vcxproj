@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{72784ED4-9D06-2A20-5095-68F9032B00E6}</ProjectGuid>
+    <ProjectGuid>{27B871CB-3D89-B396-26B9-6B638E15CE3E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_libsampler</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

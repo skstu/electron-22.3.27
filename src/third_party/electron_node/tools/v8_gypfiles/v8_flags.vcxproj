@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E31B208-D2E2-522A-FFCA-4FC340AD0424}</ProjectGuid>
+    <ProjectGuid>{63055146-03B9-7B03-7954-D3FA6FBF1035}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_flags</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -128,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_shared_internal_headers.vcxproj">
-      <Project>{E5540A33-DD1D-B349-0772-FECD58343E71}</Project>
+      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

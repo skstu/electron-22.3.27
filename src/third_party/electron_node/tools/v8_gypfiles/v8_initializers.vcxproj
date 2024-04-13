@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B99E95B8-257E-2403-7CD8-AB8535F11BE9}</ProjectGuid>
+    <ProjectGuid>{55138619-8223-FF99-5A31-93619A431842}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_initializers</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -1128,15 +1128,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="torque_generated_initializers.vcxproj">
-      <Project>{8AE87CEF-3397-562C-D55E-78C3F5A291A2}</Project>
+      <Project>{72AE9521-9D99-91F9-BECA-9D3A55CD83C6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_shared_internal_headers.vcxproj">
-      <Project>{E5540A33-DD1D-B349-0772-FECD58343E71}</Project>
+      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icuuc.vcxproj">
-      <Project>{4A7617E7-E2DE-AD02-6F8D-B7F948796E7D}</Project>
+      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{43BA9BB9-13E3-60D1-ACB9-0517EDD39AC2}</ProjectGuid>
+    <ProjectGuid>{6CB29517-3862-63FE-E560-D3D29E545724}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>torque_ls_base</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

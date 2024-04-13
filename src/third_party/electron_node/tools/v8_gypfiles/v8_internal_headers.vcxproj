@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{504FB382-91F6-2865-4EC8-E3D1CBB924FE}</ProjectGuid>
+    <ProjectGuid>{BE2CAEA2-105A-269C-DD1A-697AACCB03AE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_internal_headers</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -176,39 +176,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="torque_runtime_support.vcxproj">
-      <Project>{CA3FF004-BF4D-23CB-41A0-03D403DCBF25}</Project>
+      <Project>{3625E666-1342-F789-8E6B-653CF0128E2E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_flags.vcxproj">
-      <Project>{0E31B208-D2E2-522A-FFCA-4FC340AD0424}</Project>
+      <Project>{63055146-03B9-7B03-7954-D3FA6FBF1035}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_headers.vcxproj">
-      <Project>{19F2E750-E9CD-DCEE-0CB4-057768AB69E3}</Project>
+      <Project>{65E0B8A4-DC76-61F7-B606-B1189EA7C00E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{6056F263-422C-5753-BF9A-F31C6810C6BB}</Project>
+      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_shared_internal_headers.vcxproj">
-      <Project>{E5540A33-DD1D-B349-0772-FECD58343E71}</Project>
+      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="cppgc_headers.vcxproj">
-      <Project>{DD9F664A-DECA-D484-CDFF-E66E018394A8}</Project>
+      <Project>{42E23C3B-E9F2-8304-4F04-29EB43E9B1DE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{552C48F5-D16B-140B-324F-0EC2EF52B062}</Project>
+      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{4B34DDEF-D84B-8711-F508-35D8FE3A342D}</Project>
+      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_libbase.vcxproj">
-      <Project>{D7C872F7-3104-5B0E-7797-CFABB5F48413}</Project>
+      <Project>{9F25E06A-D824-0E3F-578A-E58190FC76B9}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

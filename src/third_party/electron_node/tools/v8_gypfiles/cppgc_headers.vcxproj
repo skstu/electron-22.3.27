@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DD9F664A-DECA-D484-CDFF-E66E018394A8}</ProjectGuid>
+    <ProjectGuid>{42E23C3B-E9F2-8304-4F04-29EB43E9B1DE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>cppgc_headers</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

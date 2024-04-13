@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02DEFF2D-1360-9849-8B38-69BF7F839350}</ProjectGuid>
+    <ProjectGuid>{503D5DDB-DEE9-3276-D616-6188466C2870}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>gtest</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -172,7 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="gtest_prod.vcxproj">
-      <Project>{A944F65D-04D3-75BE-883D-D1EA97A9A905}</Project>
+      <Project>{507B38FE-D12A-37CA-43DD-73427F79A231}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

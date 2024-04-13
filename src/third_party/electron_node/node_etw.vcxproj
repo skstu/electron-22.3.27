@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{90227C6A-9FB9-7AB0-9901-296ACD8226A8}</ProjectGuid>
+    <ProjectGuid>{D40CDC6F-5EB3-C734-4E38-1AEE735AE182}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>node_etw</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

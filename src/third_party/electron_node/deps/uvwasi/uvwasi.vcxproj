@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{98F302EA-9254-280D-DF7B-D0C03640CAD2}</ProjectGuid>
+    <ProjectGuid>{007AB202-4D98-789C-184B-E8E1E4B883B2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>uvwasi</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
