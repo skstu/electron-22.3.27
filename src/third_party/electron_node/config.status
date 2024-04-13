@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --dest-cpu x64 --experimental-enable-pointer-compression --openssl-no-asm --with-ltcg
