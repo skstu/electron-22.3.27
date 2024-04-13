@@ -1,0 +1,8 @@
+src\chrome\build\pgo_profiles
+src\chrome\test\data\xr\webvr_info\samples\media\textures
+src/third_party/swiftshader/tests/regres/testlists
+src/third_party/catapult/tracing/test_data/
+src\third_party\angle\third_party\VK-GL-CTS\src\android\cts\main\vk-master-2022-03-01
+src\third_party\angle\third_party\VK-GL-CTS\src\android\cts\main\vksc-main
+src/electron
+src\buildtools\reclient

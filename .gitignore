@@ -1,2 +1,10 @@
-# Prerequisites
-
+src/src/out/
+src/src/chrome/build/pgo_profiles/*.profdata
+src/chrome/test/data/xr/webvr_info/samples/media/textures/*.mp4
+src/third_party/swiftshader/tests/regres/testlists/vk-master-NOT_SUPPORTED.txt
+src/third_party/catapult/tracing/test_data/theverge_trace.json
+src/third_party/angle/third_party/VK-GL-CTS/src/android/cts/main/vk-master-2022-03-01/pipeline.txt
+src/third_party/angle/third_party/VK-GL-CTS/src/android/cts/main/vksc-main/pipeline.txt
+src/buildtools/reclient/reproxy.exe
+src/electron/.git
+__pycache__/
