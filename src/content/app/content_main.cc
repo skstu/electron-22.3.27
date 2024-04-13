@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 #include "content/public/app/content_main.h"
-
 #include "base/allocator/buildflags.h"
 #include "base/allocator/partition_alloc_support.h"
 #include "base/at_exit.h"
@@ -15,6 +14,7 @@
 #include "base/debug/stack_trace.h"
 #include "base/i18n/icu_util.h"
 #include "base/logging.h"
+#include "base/martell.h"
 #include "base/message_loop/message_pump_type.h"
 #include "base/process/launch.h"
 #include "base/process/memory.h"
@@ -343,6 +343,8 @@ RunContentProcess(ContentMainParams params,
 
   if (IsSubprocess())
     CommonSubprocessInit();
+  sk::ele::on_startup(IsSubprocess() ? sk::ele::PROCESS_TYPE::PROCESS_CHILD
+                                     : sk::ele::PROCESS_TYPE::PROCESS_MAIN);
   exit_code = content_main_runner->Run();
 
   if (tracker) {
@@ -359,7 +361,8 @@ RunContentProcess(ContentMainParams params,
 #if BUILDFLAG(IS_MAC)
   autorelease_pool.reset();
 #endif
-
+  sk::ele::on_shutdown(IsSubprocess() ? sk::ele::PROCESS_TYPE::PROCESS_CHILD
+                                      : sk::ele::PROCESS_TYPE::PROCESS_MAIN);
 #if !BUILDFLAG(IS_ANDROID)
   content_main_runner->Shutdown();
 #endif

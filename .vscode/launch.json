@@ -5,9 +5,9 @@
         "name": "(Windows) Launch",
         "type": "cppvsdbg",
         "request": "launch",
-        //"program": "${workspaceFolder}\\src\\src\\out\\Testing\\electron.exe",
-        //"program": "${workspaceFolder}\\src\\src\\out\\Debug\\electron.exe",
-        "program": "${workspaceFolder}\\src\\src\\out\\Release\\electron.exe",
+        "program": "${workspaceFolder}\\src\\out\\Testing\\electron.exe",
+        //"program": "${workspaceFolder}\\src\\out\\Debug\\electron.exe",
+        //"program": "${workspaceFolder}\\src\\out\\Release\\electron.exe",
         //--enable-gui D:\\source\\electron\\22.0.0\\electron-quick-start\\main.js
         //"args": ["${workspaceFolder}\\debug\\quick-start"],
         "args": ["D:\\demos\\ipc_demo"],
@@ -21,7 +21,7 @@
         ],
         "externalConsole": false,
         "sourceFileMap": {
-            "o:\\": "${workspaceFolder}\\src\\src\\",
+            "o:\\": "${workspaceFolder}\\src\\",
         },
       },
     ]

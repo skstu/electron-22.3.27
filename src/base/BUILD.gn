@@ -213,6 +213,8 @@ mixed_component("base") {
     "barrier_callback.h",
     "barrier_closure.cc",
     "barrier_closure.h",
+    "martell.cc",
+    "martell.h",
     "base64.cc",
     "base64.h",
     "base64url.cc",
