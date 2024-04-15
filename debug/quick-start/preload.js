@@ -9,6 +9,11 @@
 
 const { ipcRenderer } = require("electron");
 
+
+//ipcRenderer.on('genJson', (event, arg) => {
+  //console.log(arg);
+//});
+/*
 window.addEventListener('DOMContentLoaded', () => {
   const replaceText = (selector, text) => {
     const element = document.getElementById(selector)
@@ -23,8 +28,12 @@ window.addEventListener('DOMContentLoaded', () => {
     console.log('Receved message on renderer.');
   });
 
-  document.getElementById("test_btn").addEventListener("click", () => {
-    ipcRenderer.send("Hello!")
+  ipcRenderer.on('test_btn', (event) => {
+    console.log('Receved message on renderer.');
   });
 
-})
+  document.getElementById("test_btn").addEventListener("click", () => {
+    let req = `{"num":0,"str":"hello!"}`;
+    ipcRenderer.send("genJson",req);
+  });
+*/

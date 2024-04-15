@@ -102,6 +102,8 @@
         "regex": "cpp",
         "fstream": "cpp",
         "codecvt": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "iostream": "cpp",
+        "strstream": "cpp"
     }
 }

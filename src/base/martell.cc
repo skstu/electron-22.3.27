@@ -118,22 +118,23 @@ void on_shutdown(PROCESS_TYPE ptype) {
     __gpLogger = nullptr;
   }
 }
-void on_ipc_read(const char* src, size_t srcLen, char** dst, size_t* dstLen) {
-  int result = 0;
+void on_ipc_message(const char* channel,
+                    size_t channelLen,
+                    const char* msg,
+                    size_t msgLen,
+                    char** reply,
+                    size_t* replyLen) {
+  *reply = nullptr;
+  *replyLen = 0;
   do {
-    if (!src || srcLen <= 0)
+    if (!channel || channelLen <= 0)
       break;
-    std::string msg(src, srcLen);
-    write_file_addto("c:\\electorn.log", src, srcLen);
-
-    std::string log("ele ipc read: \n");
-    log.append(src, srcLen);
-    log.append("\n");
-    write_file_addto("c:\\electorn.log", log.data(), log.size());
-    result = 1;
+    if (!msg || msgLen <= 0)
+      break;
+    const char* text = R"({"reply":"welcome!"})"; 
+    size_t textLen = strlen(text);
+    ascii_to_utf8(text,textLen,reply,replyLen);
   } while (0);
-  if (result) {
-  }
 }
 
 }  // namespace ele
@@ -141,6 +142,7 @@ void on_ipc_read(const char* src, size_t srcLen, char** dst, size_t* dstLen) {
 char* malloc_s(size_t len) {
   char* result = NULL;
   result = (char*)malloc(len);
+  memset(result,0x00,len);
   return result;
 }
 void free_s(void** p) {

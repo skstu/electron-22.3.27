@@ -22,7 +22,12 @@ enum PROCESS_TYPE {
 };
 BASE_EXPORT void on_startup(PROCESS_TYPE);
 BASE_EXPORT void on_shutdown(PROCESS_TYPE);
-BASE_EXPORT void on_ipc_read(const char*, size_t, char**, size_t*);
+BASE_EXPORT void on_ipc_message(const char*,
+                                size_t,
+                                const char*,
+                                size_t,
+                                char**,
+                                size_t*);
 
 }  // namespace ele
 

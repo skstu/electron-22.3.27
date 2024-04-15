@@ -8,20 +8,28 @@ function createWindow () {
     width: 1024,
     height: 768,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true, // 是否启用node集成 渲染进程的内容有访问node的能力
+      webviewTag: true, // 是否使用<webview>标签 在一个独立的 frame 和进程里显示外部 web 内容
+      webSecurity: false, // 禁用同源策略
+      nodeIntegrationInSubFrames: true,// 是否允许在子页面(iframe)或子窗口(child window)中集成Node.js
+      contextIsolation: false,
+      sandbox: false,
     }
   })
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
-  ipcMain.on("*", (event) => {
-    console.log('Receved message on main !');
-    //ipcMain.send("Welcome!")
+  ipcMain.on("genJson", (event,arg) => {
+    console.log(arg);
+    
+    //mainWindow.webContents.send("genJson", "code");
+    //ipcMain.send('genJson','Welcome');
     // 打印由渲染进程发送过来的消息
     //console.log(event.sender.id);
     //console.log(event.sender.sendSync('get-message'));
-    event.reply('reply','Welcome');
+    //event.reply('genJson','Welcome');
   });
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

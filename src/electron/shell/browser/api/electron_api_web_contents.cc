@@ -11,10 +11,10 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
-
 #include "base/containers/id_map.h"
 #include "base/files/file_util.h"
 #include "base/json/json_reader.h"
+#include "base/martell.h"
 #include "base/no_destructor.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/task/current_thread.h"
@@ -1775,6 +1775,105 @@ bool WebContents::EmitNavigationEvent(
   return Emit(event, url, is_same_document, is_main_frame, frame_process_id,
               frame_routing_id);
 }
+#if 0  // code Backup.
+/* code Backup.
+    // std::string msg = CloneableMessageToString(isolate, arguments);
+    /*if (msg.empty())
+      break;*/
+    /*v8::Local<v8::String> message_str =
+        v8::Local<v8::String>::Cast(message_value);
+    if (message_str.IsEmpty())
+      break;
+    v8::String::Utf8Value utf8(isolate, message_str);
+    if (utf8.length() <= 0)
+      break;*/
+    /*v8::Local<v8::String> v8String =
+        v8::String::NewFromUtf8(isolate, reply, v8::NewStringType::kNormal,
+                                static_cast<int>(replyLen))
+            .ToLocalChecked();*/
+
+*/
+
+#if 0
+static std::string CloneableMessageToString(
+    v8::Isolate* isolate,
+    blink::CloneableMessage& arguments) {
+  std::string result;
+  do {
+    if (!isolate)
+      break;
+    v8::Local<v8::Value> message_value =
+        electron::DeserializeV8Value(isolate, arguments);
+    if (!message_value->IsArray())
+      break;
+    std::string view = gin::V8ToString(isolate, message_value);
+    v8::Local<v8::String> message_str =
+        v8::Local<v8::String>::Cast(message_value);
+    if (message_str.IsEmpty())
+      break;
+    v8::String::Utf8Value utf8(isolate, message_str);
+    if (utf8.length() <= 0)
+      break;
+    // std::string msg =gin::V8ToString(isolate,message_value);
+    result.append(utf8.operator*(), utf8.length());
+  } while (0);
+  return result;
+}
+#if 0
+static bool CloneableMessageGen(v8::Isolate* isolate,const std::string& data,blink::CloneableMessage& message){
+  bool result = false;
+  do{
+    if(!isolate || data.empty())
+    break;
+#if 0
+    v8::MaybeLocal<v8::String> repString = v8::String::NewFromUtf8(
+        isolate, reply, v8::NewStringType::kNormal, static_cast<int>(replyLen));
+    v8::Local<v8::String> v8RepString = repString.ToLocalChecked();
+#endif
+v8::Local<v8::Value> v8Value = gin::Converter<base::StringPiece>::ToV8(isolate, data);
+  if (!gin::ConvertFromV8(isolate, v8Value, &message)) {
+#if 0
+    isolate->ThrowException(v8::Exception::Error(
+        gin::StringToV8(isolate, "Failed to serialize message")));
+    return;
+#endif
+
+    break;
+  }
+
+    result = true;
+  }while(0);
+  return result;
+}
+#endif
+#if 0
+static bool StringToV8Vaue(v8::Isolate* isolate,
+                           v8::Local<v8::Value>& v8Value,
+                           const std::string& input) {
+  bool result = false;
+  do {
+    if (!isolate || input.empty())
+      break;
+    v8Value = gin::Converter<base::StringPiece>::ToV8(isolate, input);
+#if 0
+#if 1
+    if (!electron::SerializeV8Value(isolate, v8Value, &arguments))
+      break;
+#else
+    if (!gin::ConvertFromV8(isolate, v8Value, &arguments)) {
+      isolate->ThrowException(v8::Exception::Error(
+          gin::StringToV8(isolate, "Failed to serialize arguments")));
+      break;
+    }
+#endif
+#endif
+    result = true;
+  } while (0);
+  return result;
+}
+#endif
+#endif
+#endif  // code Backup.
 
 void WebContents::Message(bool internal,
                           const std::string& channel,
@@ -1783,9 +1882,61 @@ void WebContents::Message(bool internal,
   TRACE_EVENT1("electron", "WebContents::Message", "channel", channel);
   // webContents.emit('-ipc-message', new Event(), internal, channel,
   // arguments);
+
   EmitWithSender("-ipc-message", render_frame_host,
                  electron::mojom::ElectronApiIPC::InvokeCallback(), internal,
                  channel, std::move(arguments));
+
+  do {
+    v8::Isolate* isolate = JavascriptEnvironment::GetIsolate();
+    if (!isolate)
+      break;
+    v8::HandleScope handle_scope(isolate);
+
+    v8::Local<v8::Value> arg_value =
+        electron::DeserializeV8Value(isolate, arguments);
+    if (!arg_value->IsArray())
+      break;
+    std::vector<v8::Local<v8::Value>> arg_value_s;
+    if (!gin::Converter<std::vector<v8::Local<v8::Value>>>::FromV8(
+            isolate, arg_value, &arg_value_s))
+      break;
+    if (arg_value_s.empty())
+      break;
+    if (!arg_value_s[0]->IsString())
+      break;
+    std::string msg = gin::V8ToString(isolate, arg_value_s[0]);
+    if (msg.empty())
+      break;
+    char* reply = nullptr;
+    size_t replyLen = 0;
+    sk::ele::on_ipc_message(channel.data(), channel.size(), msg.data(),
+                            msg.size(), &reply, &replyLen);
+    if (!reply || replyLen <= 0)
+      break;
+    std::vector<v8::Local<v8::Value>> repArgs = {
+        gin::Converter<base::StringPiece>::ToV8(isolate,
+                                                std::string(reply, replyLen))};
+    sk::free_s((void**)&reply);
+    v8::Local<v8::Value> args =
+        gin::Converter<std::vector<v8::Local<v8::Value>>>::ToV8(isolate,
+                                                                repArgs);
+
+    gin::Handle<WebFrameMain> web_frame_main =
+        WebFrameMain::From(isolate, render_frame_host);
+    if (!web_frame_main->CheckRenderFrame())
+      break;
+#if 1
+    web_frame_main->Send(isolate, false, channel, args);
+#else
+    blink::CloneableMessage replyMsg;
+    if (!gin::ConvertFromV8(isolate, args, &replyMsg))
+      break;
+    int32_t sender_id = ID();
+    web_frame_main->GetRendererApi()->Message(internal, channel,
+                                              std::move(replyMsg), sender_id);
+#endif
+  } while (0);
 }
 
 void WebContents::Invoke(
