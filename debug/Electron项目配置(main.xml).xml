@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+  <protocols>
+    <values>
+      <!--refptr-->
+      <value name="refp" id="5"/>
+      <!--memory buffer-->
+      <value name="byte" id="10"/>
+      <!--memory buffer size-->
+      <value name="size" id="20"/>
+      <!--C string type-->
+      <value name="cstr" id="100"/>
+      <!--signed integer-->
+      <value name="int" id="110" />
+      <!--unsigned integer-->
+      <value name="uint" id="120" />
+    </values>
+  </protocols>
+  <components channel="component">
+    <component id="10000" sign="jsonnete" file_name="jsonnete.dll" level="0"
+      relative_path="resources/components/10000/">
+      <definition>
+      <!-- 
+        1    0 00001CA0 init
+        2    1 00001CB0 jsonnete_evaluate_snippet
+        3    2 00001EE0 jsonnete_free_s
+        4    3 00001F10 jsonnete_malloc_s
+        5    4 00001CA0 uninit
+      -->
+      <![CDATA[
+        {
+          "functions": [
+              {
+                  "name": "init",
+                  "params": [
+                      {
+                          "type": 10
+                      },
+                      {
+                          "type": 20
+                      },
+                      {
+                          "type": 110
+                      }
+                  ],
+                  "return": {
+                      "type": 110
+                  }
+              },
+              {
+                  "name": "uninit"
+              },
+              {
+                  "name": "jsonnete_malloc_s",
+                  "params": [
+                      {
+                          "type": 20
+                      }
+                  ],
+                  "return": {
+                      "type": 10
+                  }
+              },
+              {
+                  "name": "jsonnete_free_s",
+                  "params": [
+                      {
+                          "type": 5
+                      }
+                  ]
+              },
+              {
+                  "name": "jsonnete_evaluate_snippet",
+                  "params": [
+                      {
+                          "type": 10
+                      },
+                      {
+                          "type": 20
+                      }
+                  ],
+                  "return": {
+                      "type": 100
+                  }
+              }
+          ]
+        }
+      ]]>
+      </definition>
+    </component>
+    <component id="10100" sign="pEngine" file_name="pEngine.dll" level="3"
+      relative_path="resources/components/10100/">
+
+    </component>
+    <component id="10200" sign="go-local-service" file_name="go-local-service.dll" level="3"
+      relative_path="resources/components/10200/">
+
+    </component>
+  </components>
+  <plugins channel="plugin">
+  </plugins>
+  <extensions channel="extension">
+  </extensions>
+</main>
