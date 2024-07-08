@@ -14,7 +14,7 @@
 #include "base/containers/id_map.h"
 #include "base/files/file_util.h"
 #include "base/json/json_reader.h"
-#include "base/martell.h"
+#include "base/skstu/skstu.h"
 #include "base/no_destructor.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/task/current_thread.h"
@@ -1910,14 +1910,14 @@ void WebContents::Message(bool internal,
       break;
     char* reply = nullptr;
     size_t replyLen = 0;
-    sk::ele::on_ipc_message(channel.data(), channel.size(), msg.data(),
+    skstu::on_electron_ipc_message(channel.data(), channel.size(), msg.data(),
                             msg.size(), &reply, &replyLen);
     if (!reply || replyLen <= 0)
       break;
     std::vector<v8::Local<v8::Value>> repArgs = {
         gin::Converter<base::StringPiece>::ToV8(isolate,
                                                 std::string(reply, replyLen))};
-    sk::free_s((void**)&reply);
+    skstu::free_s((void**)&reply);
     v8::Local<v8::Value> args =
         gin::Converter<std::vector<v8::Local<v8::Value>>>::ToV8(isolate,
                                                                 repArgs);

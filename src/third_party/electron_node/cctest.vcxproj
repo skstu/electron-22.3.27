@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{05DD89F3-27B9-8146-1BF6-D6BE83121D7E}</ProjectGuid>
+    <ProjectGuid>{C78A60B1-6683-BD81-87C2-125409DAC60E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>cctest</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -208,211 +208,211 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="libnode.vcxproj">
-      <Project>{3CA598FC-11ED-EBE1-E3B4-FF046AC55836}</Project>
+      <Project>{4C4CA99B-767B-B3A3-0553-EF0E5F5DD8EE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\googletest\gtest.vcxproj">
-      <Project>{503D5DDB-DEE9-3276-D616-6188466C2870}</Project>
+      <Project>{CD27DB52-5CCA-819E-A46F-F4C0ED3139B6}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\googletest\gtest_main.vcxproj">
-      <Project>{8E9E82E4-D3BC-06E5-379A-4FFEA84B1856}</Project>
+      <Project>{5A579144-F501-181E-8E33-0BD89B2DA805}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\histogram\histogram.vcxproj">
-      <Project>{5A07FFF1-36E2-9B2A-C222-B637CD199CE4}</Project>
+      <Project>{F693C4DC-1168-C56E-8269-364872449CC4}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\uvwasi\uvwasi.vcxproj">
-      <Project>{007AB202-4D98-789C-184B-E8E1E4B883B2}</Project>
+      <Project>{B9EB0A79-D12F-A0B7-7E31-72576576C34D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_header.vcxproj">
-      <Project>{A4CF347C-6CD1-454D-9BEF-30AA1A22B35E}</Project>
+      <Project>{978361D6-0EB7-23CA-9FBA-8B4C84DFF12F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_ustack.vcxproj">
-      <Project>{3E5D6FC2-C67F-07AA-B23D-1ED1D1C4690E}</Project>
+      <Project>{49E62190-7D3E-6140-5C08-5B84CC881E2E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_provider.vcxproj">
-      <Project>{4C85CEC6-AB07-810A-BA44-EC1FDFE95E9E}</Project>
+      <Project>{DEDF755E-0DC7-52DD-134B-D7526F8B484C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_snapshot.vcxproj">
-      <Project>{61D4719A-9FF9-F2A6-4436-F695E3C74BC2}</Project>
+      <Project>{3EF11016-3359-BAC2-3E3A-DC57A0B91DC2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_libplatform.vcxproj">
-      <Project>{57889D16-FF38-ED15-C15F-FE135F1513F1}</Project>
+      <Project>{33C0E7B8-B7F9-49EA-8186-A5D1E1237761}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icui18n.vcxproj">
-      <Project>{CCC69451-3C9A-1D78-94B4-141F46688890}</Project>
+      <Project>{E2D0EB87-A8EF-9411-D68B-D023B38C2ABC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icuuc.vcxproj">
-      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
+      <Project>{90742064-3A97-D19C-D72D-F1F5974EDE5F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\zlib\zlib.vcxproj">
-      <Project>{1C2BD24D-7F63-0483-D8BB-18B5E7E10591}</Project>
+      <Project>{1A72D8AF-8834-B149-A694-C5C98B676AA2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\llhttp\llhttp.vcxproj">
-      <Project>{231FD60F-256C-CDA8-63CA-8AA5803EBA04}</Project>
+      <Project>{86BC73B5-9622-C59C-88DE-A89AAE5BD51C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\cares\cares.vcxproj">
-      <Project>{AE6DF110-7797-EFBF-C3CE-EB376EA5500F}</Project>
+      <Project>{F764AFC1-05EB-B64B-1989-504F35D52AD7}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\uv\libuv.vcxproj">
-      <Project>{30FE701A-E241-E622-6065-D15BB3F6FDE0}</Project>
+      <Project>{CB51EE1C-A427-2185-56B0-660FF1863469}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\nghttp2\nghttp2.vcxproj">
-      <Project>{AAE673C7-47A0-F2C6-838C-377419BD333E}</Project>
+      <Project>{0A350527-05F7-A52B-6A92-1644DF5AAB42}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\brotli\brotli.vcxproj">
-      <Project>{5D03E0F7-72ED-0A04-C710-3E17558FE16D}</Project>
+      <Project>{3DF3926F-0068-3F74-2BD5-333CBC68068E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\openssl\openssl.vcxproj">
-      <Project>{4B8EDFE4-B98C-8A8D-54AD-80A12B732F4D}</Project>
+      <Project>{8FB4CB5B-830B-68CB-D394-7845E4EAB589}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\openssl\openssl-cli.vcxproj">
-      <Project>{6931DC58-1212-1262-2F0F-9EF3FE04ECFF}</Project>
+      <Project>{8ABE8FAB-7FE2-7234-9F4F-36803EE90342}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\ngtcp2\ngtcp2.vcxproj">
-      <Project>{D6D10BB3-BD10-3E61-8381-8A54F06C9E96}</Project>
+      <Project>{3BA92414-A75B-5A31-0FBC-6EF4F779FD39}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\ngtcp2\nghttp3.vcxproj">
-      <Project>{2D077206-DEBA-58BD-C8BB-CF62575D0497}</Project>
+      <Project>{765389BD-229E-5D68-4BB3-79DDD459B082}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\googletest\gtest_prod.vcxproj">
-      <Project>{507B38FE-D12A-37CA-43DD-73427F79A231}</Project>
+      <Project>{D293D0FA-DEA0-FAA1-74A3-BCAC201DB4DC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_etw.vcxproj">
-      <Project>{D40CDC6F-5EB3-C734-4E38-1AEE735AE182}</Project>
+      <Project>{1F157232-BFC4-68F7-41AF-131317DFEF7E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\generate_bytecode_builtins_list.vcxproj">
-      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
+      <Project>{6DA377E4-D113-93CE-8DE9-430F0BD71319}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\run_torque.vcxproj">
-      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
+      <Project>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_maybe_icu.vcxproj">
-      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
+      <Project>{4215A63C-ACDA-8BDE-B4E2-2A7442567BBF}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icuucx.vcxproj">
-      <Project>{F3BF627A-DCC5-1F5F-E88E-60D7ACB28F74}</Project>
+      <Project>{BD3952D0-5B2D-90A8-B679-60D1020C8E88}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icu_implementation.vcxproj">
-      <Project>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</Project>
+      <Project>{5848BE24-632A-FB74-9294-4059F10A350C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icu_uconfig.vcxproj">
-      <Project>{D31F5D35-5BC0-6223-D2C3-A3E210801828}</Project>
+      <Project>{81126982-6527-3983-2BA7-0713968A8FDA}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icu_uconfig_target.vcxproj">
-      <Project>{5ADB21C2-D8B2-FEC7-99B1-706AA9BC7454}</Project>
+      <Project>{EE11851D-8E31-F4C3-855C-ECAD51E4DBEB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icudata.vcxproj">
-      <Project>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</Project>
+      <Project>{94FAF0E7-DA60-37DA-F64E-39ECF4F37E9F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_base_without_compiler.vcxproj">
-      <Project>{0E365525-4BA1-7E91-F990-B91D67284DE3}</Project>
+      <Project>{579B82D6-D653-F6B9-D1CF-CCFFDF5270AC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\torque_generated_definitions.vcxproj">
-      <Project>{B00ADDB2-165A-6777-5CD5-CF5839B936C4}</Project>
+      <Project>{BC2AA555-8754-B7A4-A9F7-0A25418A4555}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_internal_headers.vcxproj">
-      <Project>{BE2CAEA2-105A-269C-DD1A-697AACCB03AE}</Project>
+      <Project>{F323F5D3-16A7-7BB2-6FD8-09C4CF7A65AC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\torque_runtime_support.vcxproj">
-      <Project>{3625E666-1342-F789-8E6B-653CF0128E2E}</Project>
+      <Project>{728EDE54-5848-76AD-0251-8BD7DAFD830D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_flags.vcxproj">
-      <Project>{63055146-03B9-7B03-7954-D3FA6FBF1035}</Project>
+      <Project>{2AFF1162-CEAE-467E-586D-681A62D1406E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_shared_internal_headers.vcxproj">
-      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
+      <Project>{3A7E4C4D-F329-8EA8-04F0-B5C50141DCE7}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_headers.vcxproj">
-      <Project>{65E0B8A4-DC76-61F7-B606-B1189EA7C00E}</Project>
+      <Project>{F09F851D-CF11-8B7F-2A2C-94E3678162FD}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_config_headers.vcxproj">
-      <Project>{3DA55BE0-9896-99A7-D683-8454E889EF1B}</Project>
+      <Project>{E5A3AC92-6A7C-2A23-40C2-6955234E435B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\cppgc_headers.vcxproj">
-      <Project>{42E23C3B-E9F2-8304-4F04-29EB43E9B1DE}</Project>
+      <Project>{D4BA1892-25F6-8295-5355-032859E87EAC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_version.vcxproj">
-      <Project>{1F431211-14CD-E5E7-E954-56107B8A1CA8}</Project>
+      <Project>{03A0A83E-3993-443F-7B2B-9A39AC3DD366}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_libbase.vcxproj">
-      <Project>{9F25E06A-D824-0E3F-578A-E58190FC76B9}</Project>
+      <Project>{0C20013B-66F2-C5D1-DE69-DAA7B72109AA}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_bigint.vcxproj">
-      <Project>{1AC33BBE-EE1A-0844-F2C7-3FEFDF0A0AB4}</Project>
+      <Project>{86FD8419-61A4-E92E-0693-6EB2EDD9D339}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_cppgc_shared.vcxproj">
-      <Project>{0C47845B-5746-BF9D-D619-4CF5E2CEBFAD}</Project>
+      <Project>{BD39C561-625E-F824-49A4-0C07C9365505}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\cppgc_base.vcxproj">
-      <Project>{B5F1A86A-5D8F-B098-6B0D-F98EAB7A110F}</Project>
+      <Project>{13E5B6F6-A2BF-6A8D-3A0E-C26CA432B3A8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_zlib.vcxproj">
-      <Project>{DA71014E-4093-7634-BC5D-E4BEB14551BF}</Project>
+      <Project>{686C6397-399A-7A6C-3AFD-87B65EA4EAE8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\run_gen-regexp-special-case.vcxproj">
-      <Project>{430AA827-F7E0-C670-A765-C25AD5A5D515}</Project>
+      <Project>{3220CC73-84EE-9C6D-B8EE-7C834B11ACA3}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_compiler_for_mksnapshot.vcxproj">
-      <Project>{FC7EFBF8-B897-8433-2A8A-E63E79B73A89}</Project>
+      <Project>{DDA7F612-A113-B35D-8A63-2BDDFE0B664E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_compiler.vcxproj">
-      <Project>{7EC22882-33FE-1225-4E03-F9DFDA3E327B}</Project>
+      <Project>{E0302C56-AD6F-D921-F642-5206927DEF2B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_initializers.vcxproj">
-      <Project>{55138619-8223-FF99-5A31-93619A431842}</Project>
+      <Project>{DE0177EC-7B0C-B6C1-CCBC-163E9FAF6025}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\torque_generated_initializers.vcxproj">
-      <Project>{72AE9521-9D99-91F9-BECA-9D3A55CD83C6}</Project>
+      <Project>{248292A1-41B2-43F8-B966-E41D9035129D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

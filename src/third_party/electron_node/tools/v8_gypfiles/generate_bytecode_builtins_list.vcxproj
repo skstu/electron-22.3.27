@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</ProjectGuid>
+    <ProjectGuid>{6DA377E4-D113-93CE-8DE9-430F0BD71319}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>generate_bytecode_builtins_list</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="bytecode_builtins_list_generator.vcxproj">
-      <Project>{8F002323-3EBA-CDB5-426A-702172BB1C3F}</Project>
+      <Project>{75E72D16-AF78-00DB-9AAB-E0BF1992D23F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

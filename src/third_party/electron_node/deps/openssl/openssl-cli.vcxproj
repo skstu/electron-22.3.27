@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6931DC58-1212-1262-2F0F-9EF3FE04ECFF}</ProjectGuid>
+    <ProjectGuid>{8ABE8FAB-7FE2-7234-9F4F-36803EE90342}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>openssl-cli</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -280,7 +280,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="openssl.vcxproj">
-      <Project>{4B8EDFE4-B98C-8A8D-54AD-80A12B732F4D}</Project>
+      <Project>{8FB4CB5B-830B-68CB-D394-7845E4EAB589}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

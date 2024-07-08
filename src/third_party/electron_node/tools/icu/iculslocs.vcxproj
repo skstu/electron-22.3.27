@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{97A9229F-4370-B389-1F8C-240FAFD6BEC3}</ProjectGuid>
+    <ProjectGuid>{5AA5D3A4-73D2-FC77-CF14-E880FFE11480}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>iculslocs</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -124,15 +124,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="icutools.vcxproj">
-      <Project>{19297B75-63AD-C979-2E02-F5EFEDBE5165}</Project>
+      <Project>{095DE604-C88B-B8C9-E1C3-6C6D46E85001}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="icu_implementation.vcxproj">
-      <Project>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</Project>
+      <Project>{5848BE24-632A-FB74-9294-4059F10A350C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="icu_uconfig.vcxproj">
-      <Project>{D31F5D35-5BC0-6223-D2C3-A3E210801828}</Project>
+      <Project>{81126982-6527-3983-2BA7-0713968A8FDA}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

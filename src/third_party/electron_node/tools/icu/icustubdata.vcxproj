@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0BFA52C3-4C1F-BE07-F246-6CD179E8ADB9}</ProjectGuid>
+    <ProjectGuid>{9B88150C-0C28-5BA0-E949-567CA79CC26A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icustubdata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="icu_implementation.vcxproj">
-      <Project>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</Project>
+      <Project>{5848BE24-632A-FB74-9294-4059F10A350C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

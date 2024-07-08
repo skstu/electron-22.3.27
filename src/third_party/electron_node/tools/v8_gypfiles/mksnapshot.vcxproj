@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{25717FEF-436F-A45A-D0DE-3A801B3B79CE}</ProjectGuid>
+    <ProjectGuid>{96775E3F-7110-69E1-059D-387AA0B7DA41}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>mksnapshot</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -165,131 +165,131 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="v8_base_without_compiler.vcxproj">
-      <Project>{0E365525-4BA1-7E91-F990-B91D67284DE3}</Project>
+      <Project>{579B82D6-D653-F6B9-D1CF-CCFFDF5270AC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_compiler_for_mksnapshot.vcxproj">
-      <Project>{FC7EFBF8-B897-8433-2A8A-E63E79B73A89}</Project>
+      <Project>{DDA7F612-A113-B35D-8A63-2BDDFE0B664E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_init.vcxproj">
-      <Project>{BFA27E50-95B1-B0BC-8011-4B8A97C2CCC1}</Project>
+      <Project>{5E802B26-1AB2-9503-9F5F-31F34E3A5BF3}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_libbase.vcxproj">
-      <Project>{9F25E06A-D824-0E3F-578A-E58190FC76B9}</Project>
+      <Project>{0C20013B-66F2-C5D1-DE69-DAA7B72109AA}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_libplatform.vcxproj">
-      <Project>{57889D16-FF38-ED15-C15F-FE135F1513F1}</Project>
+      <Project>{33C0E7B8-B7F9-49EA-8186-A5D1E1237761}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
+      <Project>{4215A63C-ACDA-8BDE-B4E2-2A7442567BBF}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="torque_generated_definitions.vcxproj">
-      <Project>{B00ADDB2-165A-6777-5CD5-CF5839B936C4}</Project>
+      <Project>{BC2AA555-8754-B7A4-A9F7-0A25418A4555}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
+      <Project>{6DA377E4-D113-93CE-8DE9-430F0BD71319}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
+      <Project>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_internal_headers.vcxproj">
-      <Project>{BE2CAEA2-105A-269C-DD1A-697AACCB03AE}</Project>
+      <Project>{F323F5D3-16A7-7BB2-6FD8-09C4CF7A65AC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="torque_runtime_support.vcxproj">
-      <Project>{3625E666-1342-F789-8E6B-653CF0128E2E}</Project>
+      <Project>{728EDE54-5848-76AD-0251-8BD7DAFD830D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_flags.vcxproj">
-      <Project>{63055146-03B9-7B03-7954-D3FA6FBF1035}</Project>
+      <Project>{2AFF1162-CEAE-467E-586D-681A62D1406E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_shared_internal_headers.vcxproj">
-      <Project>{11418F3E-A48D-3651-2603-897D1AB75B94}</Project>
+      <Project>{3A7E4C4D-F329-8EA8-04F0-B5C50141DCE7}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_headers.vcxproj">
-      <Project>{65E0B8A4-DC76-61F7-B606-B1189EA7C00E}</Project>
+      <Project>{F09F851D-CF11-8B7F-2A2C-94E3678162FD}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_config_headers.vcxproj">
-      <Project>{3DA55BE0-9896-99A7-D683-8454E889EF1B}</Project>
+      <Project>{E5A3AC92-6A7C-2A23-40C2-6955234E435B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="cppgc_headers.vcxproj">
-      <Project>{42E23C3B-E9F2-8304-4F04-29EB43E9B1DE}</Project>
+      <Project>{D4BA1892-25F6-8295-5355-032859E87EAC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_version.vcxproj">
-      <Project>{1F431211-14CD-E5E7-E954-56107B8A1CA8}</Project>
+      <Project>{03A0A83E-3993-443F-7B2B-9A39AC3DD366}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icui18n.vcxproj">
-      <Project>{CCC69451-3C9A-1D78-94B4-141F46688890}</Project>
+      <Project>{E2D0EB87-A8EF-9411-D68B-D023B38C2ABC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icuucx.vcxproj">
-      <Project>{F3BF627A-DCC5-1F5F-E88E-60D7ACB28F74}</Project>
+      <Project>{BD3952D0-5B2D-90A8-B679-60D1020C8E88}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icu_implementation.vcxproj">
-      <Project>{09791ECF-19BE-96F3-A9A5-DCB81F0B9934}</Project>
+      <Project>{5848BE24-632A-FB74-9294-4059F10A350C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icu_uconfig.vcxproj">
-      <Project>{D31F5D35-5BC0-6223-D2C3-A3E210801828}</Project>
+      <Project>{81126982-6527-3983-2BA7-0713968A8FDA}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icu_uconfig_target.vcxproj">
-      <Project>{5ADB21C2-D8B2-FEC7-99B1-706AA9BC7454}</Project>
+      <Project>{EE11851D-8E31-F4C3-855C-ECAD51E4DBEB}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icuuc.vcxproj">
-      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
+      <Project>{90742064-3A97-D19C-D72D-F1F5974EDE5F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\icu\icudata.vcxproj">
-      <Project>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</Project>
+      <Project>{94FAF0E7-DA60-37DA-F64E-39ECF4F37E9F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_bigint.vcxproj">
-      <Project>{1AC33BBE-EE1A-0844-F2C7-3FEFDF0A0AB4}</Project>
+      <Project>{86FD8419-61A4-E92E-0693-6EB2EDD9D339}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_cppgc_shared.vcxproj">
-      <Project>{0C47845B-5746-BF9D-D619-4CF5E2CEBFAD}</Project>
+      <Project>{BD39C561-625E-F824-49A4-0C07C9365505}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="cppgc_base.vcxproj">
-      <Project>{B5F1A86A-5D8F-B098-6B0D-F98EAB7A110F}</Project>
+      <Project>{13E5B6F6-A2BF-6A8D-3A0E-C26CA432B3A8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_zlib.vcxproj">
-      <Project>{DA71014E-4093-7634-BC5D-E4BEB14551BF}</Project>
+      <Project>{686C6397-399A-7A6C-3AFD-87B65EA4EAE8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_gen-regexp-special-case.vcxproj">
-      <Project>{430AA827-F7E0-C670-A765-C25AD5A5D515}</Project>
+      <Project>{3220CC73-84EE-9C6D-B8EE-7C834B11ACA3}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_compiler.vcxproj">
-      <Project>{7EC22882-33FE-1225-4E03-F9DFDA3E327B}</Project>
+      <Project>{E0302C56-AD6F-D921-F642-5206927DEF2B}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_initializers.vcxproj">
-      <Project>{55138619-8223-FF99-5A31-93619A431842}</Project>
+      <Project>{DE0177EC-7B0C-B6C1-CCBC-163E9FAF6025}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="torque_generated_initializers.vcxproj">
-      <Project>{72AE9521-9D99-91F9-BECA-9D3A55CD83C6}</Project>
+      <Project>{248292A1-41B2-43F8-B966-E41D9035129D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

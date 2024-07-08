@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{61D4719A-9FF9-F2A6-4436-F695E3C74BC2}</ProjectGuid>
+    <ProjectGuid>{3EF11016-3359-BAC2-3E3A-DC57A0B91DC2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_snapshot</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -152,23 +152,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
+      <Project>{6DA377E4-D113-93CE-8DE9-430F0BD71319}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
+      <Project>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="mksnapshot.vcxproj">
-      <Project>{25717FEF-436F-A45A-D0DE-3A801B3B79CE}</Project>
+      <Project>{96775E3F-7110-69E1-059D-387AA0B7DA41}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
+      <Project>{4215A63C-ACDA-8BDE-B4E2-2A7442567BBF}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_compiler_for_mksnapshot.vcxproj">
-      <Project>{FC7EFBF8-B897-8433-2A8A-E63E79B73A89}</Project>
+      <Project>{DDA7F612-A113-B35D-8A63-2BDDFE0B664E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

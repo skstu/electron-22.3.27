@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BFA27E50-95B1-B0BC-8011-4B8A97C2CCC1}</ProjectGuid>
+    <ProjectGuid>{5E802B26-1AB2-9503-9F5F-31F34E3A5BF3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>v8_init</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -138,15 +138,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="generate_bytecode_builtins_list.vcxproj">
-      <Project>{365C5505-A70C-81DF-9EB1-C20FBE31CE16}</Project>
+      <Project>{6DA377E4-D113-93CE-8DE9-430F0BD71319}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
+      <Project>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="v8_maybe_icu.vcxproj">
-      <Project>{94048D84-C5FE-A662-0CE1-C7F88B2471AB}</Project>
+      <Project>{4215A63C-ACDA-8BDE-B4E2-2A7442567BBF}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

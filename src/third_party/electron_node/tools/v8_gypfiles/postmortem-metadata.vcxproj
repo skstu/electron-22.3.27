@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{34F6E915-5DF9-2975-BE98-33AADBE4D343}</ProjectGuid>
+    <ProjectGuid>{D6AFB243-0294-DABE-F8B1-6424ACC15D98}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>postmortem-metadata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -329,7 +329,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="run_torque.vcxproj">
-      <Project>{A614A5FD-71B4-478B-F784-0DF949290BE6}</Project>
+      <Project>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

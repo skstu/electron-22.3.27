@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8BCF6D84-4D6E-D05D-0341-767EBB132D95}</ProjectGuid>
+    <ProjectGuid>{9E66FBA3-21A5-4D82-53F1-F40E1670F0EB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>fuzz_env</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -146,83 +146,83 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="libnode.vcxproj">
-      <Project>{3CA598FC-11ED-EBE1-E3B4-FF046AC55836}</Project>
+      <Project>{4C4CA99B-767B-B3A3-0553-EF0E5F5DD8EE}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\histogram\histogram.vcxproj">
-      <Project>{5A07FFF1-36E2-9B2A-C222-B637CD199CE4}</Project>
+      <Project>{F693C4DC-1168-C56E-8269-364872449CC4}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\uvwasi\uvwasi.vcxproj">
-      <Project>{007AB202-4D98-789C-184B-E8E1E4B883B2}</Project>
+      <Project>{B9EB0A79-D12F-A0B7-7E31-72576576C34D}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_header.vcxproj">
-      <Project>{A4CF347C-6CD1-454D-9BEF-30AA1A22B35E}</Project>
+      <Project>{978361D6-0EB7-23CA-9FBA-8B4C84DFF12F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_ustack.vcxproj">
-      <Project>{3E5D6FC2-C67F-07AA-B23D-1ED1D1C4690E}</Project>
+      <Project>{49E62190-7D3E-6140-5C08-5B84CC881E2E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="node_dtrace_provider.vcxproj">
-      <Project>{4C85CEC6-AB07-810A-BA44-EC1FDFE95E9E}</Project>
+      <Project>{DEDF755E-0DC7-52DD-134B-D7526F8B484C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_snapshot.vcxproj">
-      <Project>{61D4719A-9FF9-F2A6-4436-F695E3C74BC2}</Project>
+      <Project>{3EF11016-3359-BAC2-3E3A-DC57A0B91DC2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\v8_gypfiles\v8_libplatform.vcxproj">
-      <Project>{57889D16-FF38-ED15-C15F-FE135F1513F1}</Project>
+      <Project>{33C0E7B8-B7F9-49EA-8186-A5D1E1237761}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icui18n.vcxproj">
-      <Project>{CCC69451-3C9A-1D78-94B4-141F46688890}</Project>
+      <Project>{E2D0EB87-A8EF-9411-D68B-D023B38C2ABC}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="tools\icu\icuuc.vcxproj">
-      <Project>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</Project>
+      <Project>{90742064-3A97-D19C-D72D-F1F5974EDE5F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\zlib\zlib.vcxproj">
-      <Project>{1C2BD24D-7F63-0483-D8BB-18B5E7E10591}</Project>
+      <Project>{1A72D8AF-8834-B149-A694-C5C98B676AA2}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\llhttp\llhttp.vcxproj">
-      <Project>{231FD60F-256C-CDA8-63CA-8AA5803EBA04}</Project>
+      <Project>{86BC73B5-9622-C59C-88DE-A89AAE5BD51C}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\cares\cares.vcxproj">
-      <Project>{AE6DF110-7797-EFBF-C3CE-EB376EA5500F}</Project>
+      <Project>{F764AFC1-05EB-B64B-1989-504F35D52AD7}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\uv\libuv.vcxproj">
-      <Project>{30FE701A-E241-E622-6065-D15BB3F6FDE0}</Project>
+      <Project>{CB51EE1C-A427-2185-56B0-660FF1863469}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\nghttp2\nghttp2.vcxproj">
-      <Project>{AAE673C7-47A0-F2C6-838C-377419BD333E}</Project>
+      <Project>{0A350527-05F7-A52B-6A92-1644DF5AAB42}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\brotli\brotli.vcxproj">
-      <Project>{5D03E0F7-72ED-0A04-C710-3E17558FE16D}</Project>
+      <Project>{3DF3926F-0068-3F74-2BD5-333CBC68068E}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\openssl\openssl.vcxproj">
-      <Project>{4B8EDFE4-B98C-8A8D-54AD-80A12B732F4D}</Project>
+      <Project>{8FB4CB5B-830B-68CB-D394-7845E4EAB589}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\openssl\openssl-cli.vcxproj">
-      <Project>{6931DC58-1212-1262-2F0F-9EF3FE04ECFF}</Project>
+      <Project>{8ABE8FAB-7FE2-7234-9F4F-36803EE90342}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\ngtcp2\ngtcp2.vcxproj">
-      <Project>{D6D10BB3-BD10-3E61-8381-8A54F06C9E96}</Project>
+      <Project>{3BA92414-A75B-5A31-0FBC-6EF4F779FD39}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\ngtcp2\nghttp3.vcxproj">
-      <Project>{2D077206-DEBA-58BD-C8BB-CF62575D0497}</Project>
+      <Project>{765389BD-229E-5D68-4BB3-79DDD459B082}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</ProjectGuid>
+    <ProjectGuid>{94FAF0E7-DA60-37DA-F64E-39ECF4F37E9F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icudata</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="genccode.vcxproj">
-      <Project>{DE8F05A0-993C-59EC-8704-73803B661DF9}</Project>
+      <Project>{5E225AAE-945F-8C62-611D-C3458AEB1A73}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

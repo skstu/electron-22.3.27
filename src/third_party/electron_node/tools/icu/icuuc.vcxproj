@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{16C6CB06-0564-C90D-7C56-A1C7E6F4FA02}</ProjectGuid>
+    <ProjectGuid>{90742064-3A97-D19C-D72D-F1F5974EDE5F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icuuc</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -111,11 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="icuucx.vcxproj">
-      <Project>{F3BF627A-DCC5-1F5F-E88E-60D7ACB28F74}</Project>
+      <Project>{BD3952D0-5B2D-90A8-B679-60D1020C8E88}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="icudata.vcxproj">
-      <Project>{AF141C96-8A1C-6D98-9561-A45491D7EA7C}</Project>
+      <Project>{94FAF0E7-DA60-37DA-F64E-39ECF4F37E9F}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

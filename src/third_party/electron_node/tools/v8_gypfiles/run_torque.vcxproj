@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A614A5FD-71B4-478B-F784-0DF949290BE6}</ProjectGuid>
+    <ProjectGuid>{538A6FA4-8A74-A43D-5D63-DEF94A07044D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>run_torque</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -744,7 +744,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="torque.vcxproj">
-      <Project>{AD52A89C-E5C9-B54F-319E-892F0CEB090B}</Project>
+      <Project>{7B33CA41-2AD8-9DE3-4910-6FA60CF7A665}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

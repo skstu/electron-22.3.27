@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{430AA827-F7E0-C670-A765-C25AD5A5D515}</ProjectGuid>
+    <ProjectGuid>{3220CC73-84EE-9C6D-B8EE-7C834B11ACA3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>run_gen-regexp-special-case</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
   <PropertyGroup Label="Configuration">
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="gen-regexp-special-case.vcxproj">
-      <Project>{EBCEB75E-5509-278E-E897-1128E5DD57CE}</Project>
+      <Project>{4C696CD5-1F8A-A16E-592C-E1000A7135E4}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

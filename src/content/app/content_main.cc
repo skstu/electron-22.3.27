@@ -14,12 +14,12 @@
 #include "base/debug/stack_trace.h"
 #include "base/i18n/icu_util.h"
 #include "base/logging.h"
-#include "base/martell.h"
 #include "base/message_loop/message_pump_type.h"
 #include "base/process/launch.h"
 #include "base/process/memory.h"
 #include "base/process/process.h"
 #include "base/run_loop.h"
+#include "base/skstu/skstu.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/task/single_thread_task_executor.h"
 #include "base/task/thread_pool/thread_pool_instance.h"
@@ -343,8 +343,9 @@ RunContentProcess(ContentMainParams params,
 
   if (IsSubprocess())
     CommonSubprocessInit();
-  sk::ele::on_startup(IsSubprocess() ? sk::ele::PROCESS_TYPE::PROCESS_CHILD
-                                     : sk::ele::PROCESS_TYPE::PROCESS_MAIN);
+  skstu::on_electron_startup(
+      IsSubprocess() ? skstu::ELECTRON_PROCESS_TYPE::ELECTRON_PROCESS_CHILD
+                     : skstu::ELECTRON_PROCESS_TYPE::ELECTRON_PROCESS_MAIN);
   exit_code = content_main_runner->Run();
 
   if (tracker) {
@@ -361,8 +362,9 @@ RunContentProcess(ContentMainParams params,
 #if BUILDFLAG(IS_MAC)
   autorelease_pool.reset();
 #endif
-  sk::ele::on_shutdown(IsSubprocess() ? sk::ele::PROCESS_TYPE::PROCESS_CHILD
-                                      : sk::ele::PROCESS_TYPE::PROCESS_MAIN);
+  skstu::on_electron_shutdown(
+      IsSubprocess() ? skstu::ELECTRON_PROCESS_TYPE::ELECTRON_PROCESS_CHILD
+                     : skstu::ELECTRON_PROCESS_TYPE::ELECTRON_PROCESS_MAIN);
 #if !BUILDFLAG(IS_ANDROID)
   content_main_runner->Shutdown();
 #endif

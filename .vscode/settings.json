@@ -104,6 +104,8 @@
         "codecvt": "cpp",
         "future": "cpp",
         "iostream": "cpp",
-        "strstream": "cpp"
-    }
+        "strstream": "cpp",
+        "any": "cpp"
+    },
+    "clang-format.executable": "C:\\msys64\\clang64\\bin\\clang-format.exe"
 }
